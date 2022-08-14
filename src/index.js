@@ -1,8 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import App from './App.js';
-
-
+// importing bootstrap below 
+import 'bootstrap/dist/css/bootstrap.min.css';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 const head = ReactDOM.createRoot(document.querySelector('head'));
 
