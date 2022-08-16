@@ -1,6 +1,11 @@
 import React from 'react';
 
-
+import carRepairShop from '../assets/CarRepairShops.png'
+import calendarApp from '../assets/calendarapp.png'
+import HoriseonApp from '../assets/HoriseonRefactored.png'
+import PasswordGenorator from  '../assets/PasswordGenerator.png'
+import APIPractice from '../assets/APIPractice.png'
+import nodeJSScreenshot from '../assets/nodeJSscreenshot.png'
 
 const work = () => {
   return (
@@ -8,12 +13,11 @@ const work = () => {
       <section className="page-section  portfolio" id="portfolio">
             <div className="container">
                 
-                <h2 className="page-section-heading text-center text-uppercase text-secondary mb-0">Portfolio</h2>
+                <h2 className="page-section-heading text-center text-uppercase text-secondary mb-0">Check Out Some My Previous Work</h2>
                 
                 <div className="divider-custom">
                     <div className="divider-custom-line"></div>
-                    <div className="divider-custom-icon"><i className="fas fa-star"></i></div>
-                    <div className="divider-custom-line"></div>
+                  
                 </div>
                 
                 <div className="row justify-content-center">
@@ -25,7 +29,7 @@ const work = () => {
                                
                             </div>
                           
-                            <img className="img-fluid" src="../assets/PasswordGenerator.png" target="_blank" alt="password generator" />
+                            <img className="img-fluid" src={PasswordGenorator} target="_blank" alt="password generator" />
                         </div>
                     </a>
                   
@@ -35,7 +39,7 @@ const work = () => {
                                
                             </div>
                            
-                            <img className="img-fluid" src=" ./ " target="_blank" alt="SEO Company Webpage" />
+                            <img className="img-fluid" src={HoriseonApp} target="_blank" alt="SEO Company Webpage" />
                         </div>
                     </a>
                    
@@ -44,7 +48,7 @@ const work = () => {
                             <div className="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                                 
                             </div>
-                            <img className="img-fluid" src="docs/img/calendarapp.png" alt="A link to a calendar app" />
+                            <img className="img-fluid" src={calendarApp} alt="A link to a calendar app" />
                         </div>
                     </a>
                    
@@ -53,7 +57,7 @@ const work = () => {
                             <div className="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                                
                             </div>
-                            <img className="img-fluid" src="docs/img/CarRepairShops.png" alt="picture of weather api website" />
+                            <img className="img-fluid" src={carRepairShop} />
                         </div>
                     </a>
                     
@@ -62,7 +66,7 @@ const work = () => {
                             <div className="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                               
                             </div>
-                            <img className="img-fluid" src="docs/img/APIPractice.png" alt="..." />
+                            <img className="img-fluid" src={APIPractice} alt="..." />
                         </div>
                     </a>
                     
@@ -71,7 +75,7 @@ const work = () => {
                             <div className="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                              
                             </div>
-                            <img className="img-fluid" src="docs/img/nodeJSscreenshot.png" alt=" code picture working node.js" />
+                            <img className="img-fluid" src={nodeJSScreenshot} alt=" code picture working node.js" />
                         </div>
                     
                     </a>

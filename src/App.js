@@ -16,13 +16,14 @@ function App() {
         <NavBar />
         <h1>.</h1>
         <About />
+        
         <Work />
        
         <Home />
         
         <Contact />
 
-        <Skills />
+        
         
      
 

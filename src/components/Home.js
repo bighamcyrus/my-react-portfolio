@@ -13,8 +13,8 @@ const Home = () => {
                 </div>
                 
                 <div className="row">
-                    <div className="col-lg-4 ms-auto"><p className="lead">creating complex frontend and backend programs. I have experience with ReactJS, NodeJS, GIT/GitHub, Algorithms, API’s, and tech principles and culture via both team/individual projects, code reviews, and pair programing.  </p></div>
-                    <div className="col-lg-4 me-auto"><p className="lead">Passionate about front end webdesign and looking forward to future programs where I will impliment c+ to create complex computer programs.</p></div>
+                    <div className="col-lg-4 ms-auto"><p className="lead">creating complex frontend and backend programs. I am a full MERN developer with experience building apps with Mondgo.db, Express, ReactJS, NodeJS.    </p></div>
+                    <div className="col-lg-4 me-auto"><p className="lead">I have built web applications for small to mid size companies and work with teams in big tech companies.</p></div>
                 </div>
                 </div>
          </section>

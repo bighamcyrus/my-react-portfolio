@@ -4,17 +4,13 @@ const Contact = () => {
   return (
     <div>
                             
-        <footer className="footer text-center">
+        <footer className="footer text-center bg-dark">
             <div className="container">
                 <div className="row">
                    
                     <div className="col-lg-4 mb-5 mb-lg-0">
-                        <h4 className="text-uppercase mb-4">Location</h4>
-                        <p className="lead mb-0">
-                            remote work and relocation available
-                            <br />
-                            Phoenix, AZ 85086
-                        </p>
+                        
+                       
                     </div>
                    
                     <div className="col-lg-4 mb-5 mb-lg-0">
