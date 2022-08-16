@@ -1,25 +1,30 @@
 import React from 'react';
 import JSXVariables from "./components/JSXVariables";
 
-
+import Home from "./components/Home";
 import About from "./components/about";
 import Contact from "./components/Contact";
-import Home from "./components/Home";
-import Navbar from "./components/NavBar";
-import skills from "./components/skills";
+
+import NavBar from "./components/NavBar"
+import Skills from "./components/skills"
 import Work from "./components/work";
 
 
 function App() {
     return(
       <div>
-      <JSXVariables />
-      <About />
-      <Contact />
-      <Home />
-      <Navbar />
-      <skills />
-      <Work />
+        <NavBar />
+        <h1>.</h1>
+        <About />
+        <Work />
+       
+        <Home />
+        
+        <Contact />
+
+        <Skills />
+        
+     
 
       </div>
 
