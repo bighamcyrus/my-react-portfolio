@@ -1,5 +1,6 @@
 import React from 'react'
 
+
 const Contact = () => {
   return (
     <div>
@@ -7,7 +8,8 @@ const Contact = () => {
         <footer className="footer text-center bg-dark">
             <div className="container">
                 <div className="row">
-                   
+                
+
                     <div className="col-lg-4 mb-5 mb-lg-0">
                         
                        
