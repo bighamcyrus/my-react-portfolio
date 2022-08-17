@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/my-react-portfolio/static/css/main.84487ea8.css",
+    "main.js": "/my-react-portfolio/static/js/main.6c50be2a.js",
+    "static/media/HoriseonRefactored.png": "/my-react-portfolio/static/media/HoriseonRefactored.283285e8e6bd9414cd58.png",
+    "static/media/nodeJSscreenshot.png": "/my-react-portfolio/static/media/nodeJSscreenshot.2d63d9a7231b82a538dc.png",
+    "static/media/APIPractice.png": "/my-react-portfolio/static/media/APIPractice.502d34c9252351af67fd.png",
+    "static/media/CarRepairShops.png": "/my-react-portfolio/static/media/CarRepairShops.e52cb4e1ead08a918849.png",
+    "static/media/calendarapp.png": "/my-react-portfolio/static/media/calendarapp.373a7e09a9be052ff763.png",
+    "static/media/PasswordGenerator.png": "/my-react-portfolio/static/media/PasswordGenerator.98ed10f8525a1936f3c0.png",
+    "index.html": "/my-react-portfolio/index.html",
+    "main.84487ea8.css.map": "/my-react-portfolio/static/css/main.84487ea8.css.map",
+    "main.6c50be2a.js.map": "/my-react-portfolio/static/js/main.6c50be2a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.84487ea8.css",
+    "static/js/main.6c50be2a.js"
+  ]
+}
