@@ -14,7 +14,7 @@ const Home = () => {
                 
                 <div className="row">
                     <div className="col-lg-4 ms-auto"><p className="lead">I Created complex frontend and backend web applications. I am a full MERN developer with experience building apps with Mondgo.db, Express, ReactJS, NodeJS.    </p></div>
-                    <div className="col-lg-4 me-auto"><p className="lead">I have built web applications for small to mid size companies as well, I have worked with teams in big tech companies.</p></div>
+                    <div className="col-lg-4 me-auto"><p className="lead">I have built web applications for small to mid size companies as well as worked with teams in big tech companies.</p></div>
                 </div>
                 </div>
          </section>
