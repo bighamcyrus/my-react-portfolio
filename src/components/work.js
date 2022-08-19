@@ -10,7 +10,7 @@ import nodeJSScreenshot from '../assets/nodeJSscreenshot.png'
 const work = () => {
   return (
     <div>
-      <section className="page-section  portfolio" id="portfolio">
+      <section className="page-section text bg-dark portfolio" id="portfolio">
             <div className="container">
                 
                 <h2 className="page-section-heading text-center text-uppercase text-secondary mb-0">Check Out Some My Previous Work</h2>
