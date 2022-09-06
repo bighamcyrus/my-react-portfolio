@@ -1,7 +1,7 @@
 import React from 'react';
 
 import carRepairShop from '../assets/CarRepairShops.png'
-import calendarApp from '../assets/calendarapp.png'
+import calendarApp from '../assets/sneakerheadsite.png'
 import HoriseonApp from '../assets/HoriseonRefactored.png'
 import PasswordGenorator from  '../assets/PasswordGenerator.png'
 import APIPractice from '../assets/APIPractice.png'
@@ -22,6 +22,15 @@ const work = () => {
                 
                 <div className="row justify-content-center">
                    
+                    <a href="https://sneakerheadshop.herokuapp.com/" target="_blank" className="col-md-6 col-lg-4 mb-5">
+                        <div className="portfolio-item mx-auto">
+                            <div className="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                
+                            </div>
+                            <img className="img-fluid" src={calendarApp} alt="A link to a calendar app" />
+                        </div>
+                    </a>
+                    
                     <a href= "https://bighamcyrus.github.io/passwordgenerator/" target="_blank" className="col-md-6 col-lg-4 mb-5">
                         <div className="portfolio-item mx-auto" >
                       
@@ -43,15 +52,7 @@ const work = () => {
                         </div>
                     </a>
                    
-                    <a href="https://bighamcyrus.github.io/calendarCode/" target="_blank" className="col-md-6 col-lg-4 mb-5">
-                        <div className="portfolio-item mx-auto">
-                            <div className="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                
-                            </div>
-                            <img className="img-fluid" src={calendarApp} alt="A link to a calendar app" />
-                        </div>
-                    </a>
-                   
+                                      
                     <a href="https://whispering-basin-00391.herokuapp.com/" target="_blank" className="col-md-6 col-lg-4 mb-5 mb-lg-0">
                         <div className="portfolio-item mx-auto">
                             <div className="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
