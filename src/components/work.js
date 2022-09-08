@@ -6,6 +6,7 @@ import HoriseonApp from '../assets/HoriseonRefactored.png'
 import PasswordGenorator from  '../assets/PasswordGenerator.png'
 import APIPractice from '../assets/APIPractice.png'
 import nodeJSScreenshot from '../assets/nodeJSscreenshot.png'
+import onlineshoptemplate from '../assets/onlineshoptemplate.png'
 
 const work = () => {
   return (
@@ -30,18 +31,7 @@ const work = () => {
                             <img className="img-fluid" src={calendarApp} alt="A link to a calendar app" />
                         </div>
                     </a>
-                    
-                    <a href= "https://bighamcyrus.github.io/passwordgenerator/" target="_blank" className="col-md-6 col-lg-4 mb-5">
-                        <div className="portfolio-item mx-auto" >
-                      
-                            <div className="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                               
-                            </div>
-                          
-                            <img className="img-fluid" src={PasswordGenorator} target="_blank" alt="password generator" />
-                        </div>
-                    </a>
-                  
+                            
                     <a href="https://bighamcyrus.github.io/Refactored-Code-for-Horiseon/" target="_blank" className="col-md-6 col-lg-4 mb-5">
                         <div className="portfolio-item mx-auto">
                             <div className="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
@@ -62,12 +52,23 @@ const work = () => {
                         </div>
                     </a>
                     
-                    <a href="https://bighamcyrus.github.io/SteamAPI/" target="_blank" className="col-md-6 col-lg-4 mb-5 mb-md-0">
+                    <a href="https://onlineshoptemplatewithoutstripe.vercel.app/" target="_blank" className="col-md-6 col-lg-4 mb-5 mb-md-0">
                         <div className="portfolio-item mx-auto">
                             <div className="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                               
                             </div>
-                            <img className="img-fluid" src={APIPractice} alt="..." />
+                            <img className="img-fluid" src={onlineshoptemplate} alt="..." />
+                        </div>
+                    </a>
+
+                    <a href= "https://bighamcyrus.github.io/passwordgenerator/" target="_blank" className="col-md-6 col-lg-4 mb-5">
+                        <div className="portfolio-item mx-auto" >
+                      
+                            <div className="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                               
+                            </div>
+                          
+                            <img className="img-fluid" src={PasswordGenorator} target="_blank" alt="password generator" />
                         </div>
                     </a>
                     
